@@ -1,4 +1,4 @@
-# Write your code here :-)
+# import needed library 
 from turtle import Turtle
 from random import randint
 
@@ -9,7 +9,12 @@ lauren = Turtle()
 svenja = Turtle()
 
 
+# attribute of the turtle
 laura.color('red')
+rik.color('blue')
+lauren.color('green')
+svenja.color('pink')
+
 laura.shape("turtle")
 rik.shape("turtle")
 lauren.shape("turtle")
@@ -19,12 +24,6 @@ svenja.shape("turtle")
 laura.penup()
 laura.goto(-160,100)
 laura.pendown()
-
-
-rik.color('blue')
-lauren.color('green')
-svenja.color('pink')
-
 
 rik.penup()
 rik.goto(-160,70)
